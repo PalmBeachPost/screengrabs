@@ -1,0 +1,12 @@
+c:\python37\lib\site-packages\selenium\webdriver\phantomjs\webdriver.py:49: UserWarning: Selenium support for PhantomJS has been deprecated, please use headless versions of Chrome or Firefox instead
+  warnings.warn('Selenium support for PhantomJS has been deprecated, please use headless '
+Working on https://www.palmbeachpost.com
+Thing should have downloaded by now. Scrolling down.
+Waiting for Ajax-y trigger-y stuff to go.
+Saving https://www.palmbeachpost.com
+Traceback (most recent call last):
+  File "screengrabs.py", line 68, in <module>
+    im.save(masterdirectory + datepath + abbreviation + filesuffix + ".png", optimize=True)
+  File "c:\python37\lib\site-packages\PIL\Image.py", line 1991, in save
+    fp = builtins.open(filename, "w+b")
+PermissionError: [Errno 13] Permission denied: 'x:\\screengrabs/2019/03/19/pb_2019-03-19_1624.png'
